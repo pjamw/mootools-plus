@@ -7,5 +7,7 @@ Planning installation
 ---------------------
 
 ```ruby
-gem 'mootools-ruby'
+group :assets do
+  gem 'mootools-ruby'
+end
 ```
