@@ -1,15 +1,18 @@
 mootools-plus
 =============
 
-This project uses MIT-LICENSE.
-
-mootools-ruby provides Ruby methods to Javascript MooTools core classes.
+mootools-plus provides Ruby methods to Javascript MooTools core classes and plus.
 
 Planning installation
 ---------------------
 
 ```ruby
 group :assets do
-  gem 'mootools-ruby'
+  gem 'mootools-plus'
 end
 ```
+
+License
+=======
+
+This project uses MIT-LICENSE.
