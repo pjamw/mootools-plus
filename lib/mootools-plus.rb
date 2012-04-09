@@ -1,0 +1,2 @@
+module MootoolsPlus
+end
