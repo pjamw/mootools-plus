@@ -1,2 +1,1 @@
-module MootoolsPlus
-end
+require 'mootools-plus/rails'

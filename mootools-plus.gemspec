@@ -1,8 +1,8 @@
-require File.expand_path('../lib/mootools-plus/version', __FILE__)
+require File.expand_path('../lib/mootools-plus/rails/version', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'mootools-plus'
-  s.version     = MootoolsPlus::VERSION
+  s.version     = MootoolsPlus::Rails::VERSION
   s.authors     = ['caedes']
   s.homepage    = 'https://github.com/caedes/mootools-plus'
   s.summary     = 'mootools-plus provides Ruby methods to Javascript MooTools core classes and plus'
