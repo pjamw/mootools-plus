@@ -1,3 +1,7 @@
+## 0.0.3
+
+  * Add condition on Mootools presence.
+
 ## 0.0.2
 
   * Add documentation in Github wiki.
