@@ -17,10 +17,12 @@ Then `bundle install` it.
 
 Add mootools-plus to the asset pipeline:
 
-```ruby
+```javascript
 //= require mootools-plus/array
 //= require mootools-plus/element
 ```
+
+Enjoy!
 
 Documentation
 -------------
