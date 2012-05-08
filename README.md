@@ -1,10 +1,8 @@
-mootools-plus
--------------
+## mootools-plus
 
 mootools-plus provides helpers and Ruby-like methods to Javascript MooTools core classes and plus.
 
-Installation
-------------
+## Installation
 
 Add the gem in your `Gemfile`:
 ```ruby
@@ -24,12 +22,10 @@ Add mootools-plus to the asset pipeline:
 
 Enjoy!
 
-Documentation
--------------
+## Documentation
 
 Work in progress.
 
-License
--------
+## License
 
 This project uses MIT-LICENSE.
