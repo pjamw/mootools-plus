@@ -1,3 +1,7 @@
+## 0.1.0
+
+  * It can now be used in 3.1 version of rails
+
 ## 0.0.3
 
   * Add condition on Mootools presence.
