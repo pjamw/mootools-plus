@@ -7,7 +7,7 @@ mootools-plus provides helpers and Ruby-like methods to Javascript MooTools core
 Add the gem in your `Gemfile`:
 ```ruby
 group :assets do
-  gem 'mootools-plus', '~> 0.1.0'
+  gem 'mootools-plus', '0.1.1'
 end
 ```
 
@@ -16,6 +16,7 @@ Then `bundle install` it.
 Add mootools-plus to the asset pipeline:
 
 ```javascript
+//= require mootools-plus/logger
 //= require mootools-plus/array
 //= require mootools-plus/element
 ```
@@ -25,6 +26,7 @@ Enjoy!
 ## Documentation
 
 * [Native elements](https://github.com/caedes/mootools-plus/wiki/Native-elements)
+* [Logger](https://github.com/caedes/mootools-plus/wiki/Logger)
 
 ## License
 
