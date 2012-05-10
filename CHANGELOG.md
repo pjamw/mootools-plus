@@ -1,3 +1,7 @@
+## 0.1.1
+
+  * Add Logger class
+
 ## 0.1.0
 
   * It can now be used in 3.1 version of rails
