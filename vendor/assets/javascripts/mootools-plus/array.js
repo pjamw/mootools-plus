@@ -28,6 +28,7 @@ if (window.MooTools) {
 
   Array.alias('first', 'getFirst')
   Array.alias('last', 'getFirst')
+  Array.alias('select', 'filter')
 }
 else {
   if (console && console.error) console.error('Mootools is not yet installed.')
