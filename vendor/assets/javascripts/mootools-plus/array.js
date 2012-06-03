@@ -9,14 +9,6 @@ if (window.MooTools) {
       return (n || n === 0) ? this.slice(this.length - n, this.length) : this[this.length - 1]
     },
 
-    compact: function() {
-      for (var i = 0, length = this.length; i < length; i++) {
-        var el = this.shift()
-        if (el != undefined && el != null && el != '' || el == 0) this.push(el)
-      }
-      return this
-    },
-
     deleteIf: function(fn){
       for (var i = 0, length = this.length; i < length; i++) {
         var el = this.shift()
@@ -29,6 +21,7 @@ if (window.MooTools) {
   Array.alias('first', 'getFirst')
   Array.alias('last', 'getFirst')
   Array.alias('select', 'filter')
+  Array.alias('compact', 'clean')
 }
 else {
   if (console && console.error) console.error('Mootools is not yet installed.')
