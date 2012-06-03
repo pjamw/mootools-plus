@@ -12,7 +12,7 @@ if (window.MooTools) {
     compact: function() {
       for (var i = 0, length = this.length; i < length; i++) {
         var el = this.shift()
-        if (el != undefined && el != null && el != '') this.push(el)
+        if (el != undefined && el != null && el != '' || el == 0) this.push(el)
       }
       return this
     },
