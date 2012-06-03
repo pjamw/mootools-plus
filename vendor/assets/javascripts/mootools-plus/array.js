@@ -1,4 +1,4 @@
-if (Array.implement) {
+if (window.MooTools) {
   Array.implement({
     first: function(n){
       return (n || n === 0) ? this.slice(0, n) : this[0]

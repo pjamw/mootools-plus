@@ -1,4 +1,4 @@
-if (Element.implement) {
+if (window.MooTools) {
   Element.implement({
     hasElement: function(tag){
       return (tag == undefined) ? (this.getChildren().length > 0) : (this.getElement(tag) != null)
