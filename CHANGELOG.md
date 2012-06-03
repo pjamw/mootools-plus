@@ -1,3 +1,7 @@
+## 0.1.3
+
+  * Add email and description in gemspec file
+
 ## 0.1.2
 
   * Update Logger#warning
