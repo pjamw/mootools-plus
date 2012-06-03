@@ -1,4 +1,3 @@
-
 if (window.MooTools) {
   var Logger = new Class()
 
