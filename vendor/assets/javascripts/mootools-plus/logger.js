@@ -13,11 +13,11 @@ if (window.MooTools) {
    Logger.trace(param, 'error')
   }
 
-  Logger.warn = function(param){
-    Logger.trace(param, 'warn')
+  Logger.warning = function(param){
+    Logger.trace(param, 'warning')
   }
 
-  Logger.warning = Logger.warn
+  Logger.warn = Logger.warning
 
   Logger.trace = function(param, level){
     if (console != undefined) {
@@ -25,7 +25,7 @@ if (window.MooTools) {
         case 'log':
           if (console.log != undefined) console.log(param)
           break
-        case 'warn':
+        case 'warning':
           if (console.warn != undefined) console.warn(param)
           break
         case 'info':
