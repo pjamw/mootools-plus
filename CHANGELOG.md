@@ -1,6 +1,6 @@
 ## 0.1.2
 
-  * Update Logger.warning
+  * Update Logger#warning
   * Update Array#compact as Array#clean alias
   * Add Array#select as  Array#filter alias
   * Update Array#first|last as Array#getFirst|getLast alias
@@ -16,12 +16,12 @@
 
 ## 0.0.3
 
-  * Add condition on Mootools presence.
+  * Add condition on Mootools presence
 
 ## 0.0.2
 
-  * Add documentation in Github wiki.
+  * Add documentation in Github wiki
 
 ## 0.0.1
 
-  * First version. See README to learn how to use it.
+  * First version

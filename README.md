@@ -7,7 +7,7 @@ mootools-plus provides helpers and Ruby-like methods to Javascript MooTools core
 Add the gem in your `Gemfile`:
 ```ruby
 group :assets do
-  gem 'mootools-plus', '0.1.1'
+  gem 'mootools-plus', '~> 0.1.0'
 end
 ```
 
