@@ -1,3 +1,11 @@
+## 0.1.2
+
+  * Update Logger.warning
+  * Update Array#compact as Array#clean alias
+  * Add Array#select as  Array#filter alias
+  * Update Array#first|last as Array#getFirst|getLast alias
+  * Update MooTools checking method
+
 ## 0.1.1
 
   * Add Logger class
