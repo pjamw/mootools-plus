@@ -19,7 +19,7 @@ if (window.MooTools) {
   })
 
   Array.alias('first', 'getFirst')
-  Array.alias('last', 'getFirst')
+  Array.alias('last', 'getLast')
   Array.alias('select', 'filter')
   Array.alias('compact', 'clean')
 }
